@@ -1,0 +1,21 @@
+= Caterpillar LogParser
+
+Author: James McGinnis - Email: james.e.mcginnis@outlook.com
+
+== Introduction
+This application is just a simple project to display concepts in utilizing Python as a programming language to accomplish very basic parsing of a log file example provided by Caterpillar.
+
+
+== Setup
+
+Setup of the application can be done very easily. This application does not require any additional packages from pypi and does not require the installation of local packages. Thus the following steps will easily provide enough information for anyone with Python experience.
+
+1. Install Python 3.3+ (This application was developed using Python 3.11.2, but by only using standard libraries, using the same version is not necessary)
+2. Unzip the project.zip file provided
+3. Open a terminal session
+4. Navigate to the unzipped file location
+5. Run the following command:
+[,bash]
+----
+python main.py {path-to-log-file}
+----
